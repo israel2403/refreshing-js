@@ -6,4 +6,10 @@ const person  = {
   }
 }
 
-person.greet();
+const hobbies = ['Sports', 'Cooking'];
+
+console.log(hobbies.map( hobby =>{
+  return 'Hobby '  + hobby;
+}));
+
+console.log(hobbies);
